@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+  }
+  
+  .poster {
+    width: 50%;
+    margin: 100px auto;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px; 
+  }
+  
+  .motivation-img1 {
+    border: 5px solid white;
+    width: 112%;
+    height: 700px;
+  }
+  .motivation-img2 {
+    border: 5px solid white;
+    width: 130%;
+    height: 700px;
+  }
+  .motivation-img3 {
+    border: 5px solid white;
+    width: 200%;
+    height: 700px;
+  }
+  .motivation-img4 {
+    border: 5px solid white;
+    width: 130%;
+    height: 700px;
+  }
+ 
+  
